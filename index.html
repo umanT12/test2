@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style2.css" />
+    <link rel="icon" href="./images/favicon-32x32.png">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./parts/homepage.html">
+          <img src="./images/figma2.png" alt="Brand logo" class="brand-logo" />
+          <span class="brand-name"></span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="./parts/features.html">Features</a></li>
+            <li><a href="./parts/showcase.html">Showcase</a></li>
+            <li><a href="./parts/pricing.html">Pricing</a></li>
+            <li><a href="./parts/faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+    <section class="section-hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">NEW * Version</p>
+          <h1 class="h1">Landing page built with HTML and CSS.</h1>
+          <p class="sub">Responsive, semantic, and close to the Figma design .</p>
+          <div class="hero-actions">
+            <a href="./parts/started.html" class="btn btn-primary">Start Free</a>
+            <a href="./parts/demo.html" class="btn btn-ghost">View Demo</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="" class="hero-img" alt="Product screenshots" />
+        </div>
+      </div>
+    </section>
+
+    <!--Logos-->
+    <section class="section-logos">
+      <div class="container logos">
+        <img src="" alt="Logo 1" />
+        <img src="" alt="Logo 2" />
+        <img src="" alt="Logo 3" />
+        <img src="" alt="Logo 4" />
+        <img src="" alt="Logo 5" />
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">Features</h2>
+          <p class="sub">Our Product have diverse features.</p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3 class="h3">Simple</h3>
+            <p>No scripts, only markup and styles.</p>
+        </article>
+          <article class="feature">
+            <h3 class="h3">Responsive</h3>
+            <p>Works across devices with CSS grid and flexbox.</p>
+        </article>
+          <article class="feature">
+            <h3 class="h3">Lightweight</h3>
+            <p>Minimal code, fast loading.</p>
+        </article>
+          <article class="feature">
+            <h3 class="h3">Customizable</h3>
+            <p>Swap tokens in CSS to match your Figma.</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="section alt" id="showcase">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">Showcase</h2>
+          <p class="sub">Static gallery of images.</p>
+        </header>
+        <div class="card-grid">
+          <figure class="card media">
+            <img src="" alt="Screenshot 1" />
+            <figcaption>Screenshot one</figcaption>
+          </figure>
+          <figure class="card media">
+            <img src="" alt="Screenshot 2" />
+            <figcaption>Screenshot two</figcaption>
+          </figure>
+          <figure class="card media">
+            <img src="" alt="Screenshot 3" />
+            <figcaption>Screenshot three</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">Pricing</h2>
+          <p class="sub">Pricing table.</p>
+        </header>
+        <div class="pricing-grid">
+          <div class="card price">
+            <h3 class="h3">
+                Starter
+            </h3>
+            <p>
+                $20/mo
+            </p>
+        </div>
+          <div class="card price featured">
+            <h3 class="h3">
+                Pro
+            </h3>
+            <p>
+                $150/mo
+            </p>
+        </div>
+          <div class="card price">
+            <h3 class="h3">
+                Business
+            </h3>
+            <p>
+                $1999/mo
+            </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt" id="faq">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="h2">FAQ</h2>
+        </header>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 class="h3">How do I start?</h3>
+            <p>Wanna start now pay for the business package.</p>
+        </div>
+          <div class="faq-item">
+            <h3 class="h3">How do I edit bugs?</h3>
+            <p>Go through your code diligently.</p>
+        </div>
+          <div class="faq-item">
+            <h3 class="h3">No money?</h3>
+            <p>Learn to code with this platform. The costly the plan the faster the learning time.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-cta" id="cta">
+      <div class="container cta-grid">
+        <div>
+          <h2 class="h2">Ready to get started?</h2>
+          <p class="sub">Easy and lightweight.</p>
+        </div>
+        <div class="cta-form">
+          <input type="email" placeholder="Enter your email" enabled />
+          <button class="btn btn-primary" enabled>Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="./images/figma2.png" alt="Brand logo" class="brand-logo" />
+          <span class="brand-name">Figma</span>
+          <p class="fine"><span>&copy;</span> 2025 Figma</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="./parts/features.html">Features</a>
+          <a href="./parts/showcase.html">Showcase</a>
+          <a href="./parts/pricing.html">Pricing</a>
+          <a href="./parts/faq.html">FAQ</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
